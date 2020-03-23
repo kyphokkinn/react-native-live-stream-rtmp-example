@@ -7,8 +7,8 @@ let timeOutMessages = [];
 /**
  * CHANGE THIS ---------------------------------
  */
-const socketIOIP = 'http://127.0.0.1:3333';
-const rtmpPath = 'rtmp://127.0.0.1/live/';
+const socketIOIP = 'http://192.168.0.110:3333';
+const rtmpPath = 'rtmp://192.168.0.110/media/';
 /**
  *----------------------------------------------
  */

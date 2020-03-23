@@ -83,6 +83,7 @@ export default class LiveStreamScreen extends Component {
       SocketUtils.emitRegisterLiveStream(Utils.getUserId(), Utils.getUserId());
     } else if (userType === 'VIEWER') {
       SocketUtils.emitJoinServer(Utils.getRoomName(), Utils.getUserId());
+      this.setState({liveStatus: LiveStatus.ON_LIVE});
       this.StartBackgroundColorAnimation();
     } else if (userType === 'REPLAY') {
       SocketUtils.emitReplay(Utils.getRoomName(), Utils.getUserId());
