@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Button, StatusBar } from 'react-native';
 import Utils from '../Utils';
+import FBLoginButton from '../facebookLogin';
 
 export default class HomeScreen extends Component {
   constructor(props) {
@@ -36,6 +37,7 @@ export default class HomeScreen extends Component {
             this.props.navigation.navigate('List');
           }}
         />
+        <FBLoginButton/>
       </View>
     );
   }

@@ -1,4 +1,4 @@
-package com.livestream;
+package com.jommet.livestream;
 
 import android.app.Application;
 import android.content.Context;

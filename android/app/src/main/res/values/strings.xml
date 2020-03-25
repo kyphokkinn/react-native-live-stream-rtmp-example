@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">livestream</string>
+    <string name="app_name">Jommet</string>
+    <string name="facebook_app_id">245894566439808</string>
+    <string name="fb_login_protocol_scheme">fb245894566439808</string>
 </resources>

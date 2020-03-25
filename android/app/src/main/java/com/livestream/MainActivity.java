@@ -1,4 +1,4 @@
-package com.livestream;
+package com.jommet.livestream;
 
 import com.facebook.react.ReactActivity;
 
